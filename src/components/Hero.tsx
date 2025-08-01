@@ -41,7 +41,7 @@ const Hero = () => {
           {/* Text Content */}
           <div className="order-1 md:order-2 space-y-6 text-left md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-              Hi, I'm Arpit Singh
+              Hi, I'm {' '}
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-teal-400 bg-clip-text text-transparent">
                 Arpit Singh
               </span>
