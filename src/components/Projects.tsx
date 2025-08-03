@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'AI Tutor',
       description: 'An intelligent tutoring system powered by AI that provides personalized learning experiences. Features adaptive questioning, progress tracking, and interactive learning modules.',
-      image: '', // Empty for now - you can add your image later
+      image: './src/assets/AI-Tutor.png', // Empty for now - you can add your image later
       tech: ['Python', 'Gemini', 'React', 'FastAPI', 'MongoDB'],
       github: 'https://github.com/Arpit-nx/AI-Tutor',
       live: '#'
@@ -14,23 +14,23 @@ const Projects = () => {
     {
       title: 'Psyc-mate',
       description: 'A mental health companion app that provides psychological support, mood tracking, and connects users with mental health resources and professionals.',
-      image: '', // Empty for now
+      image: './src/assets/Psyc_mate.png', // Empty for now
       tech: ['React', 'Flask', 'MongoDB', 'Socket.io', 'ML'],
       github: 'https://github.com/Arpit-nx/Psyc_mate',
       live: '#'
     },
     {
       title: 'Zola',
-      description: 'A modern e-commerce platform with advanced features including AI-powered recommendations, real-time inventory management, and seamless payment integration.',
-      image: '', // Empty for now
+      description: 'An AI chatbot with enbedded ML nodel having advanced features including AI-powered responsiveness, accurate response with file support system(Helping user with files).',
+      image: './src/assets/zola.png', // Empty for now
       tech: ['Next.js', 'TypeScript', 'Gemini', 'Shadcn', 'OpenAI'],
       github: 'https://github.com/Arpit-nx/ZOLA',
-      live: '#'
+      live: 'https://askzola.vercel.app'
     },
     {
       title: 'Luxe Cereus',
       description: 'A luxury Candle brand website with elegant design, product showcase, and premium user experience. Features include virtual try-on and personalized recommendations.',
-      image: '', // Empty for now
+      image: './src/assets/Luxe-cereus.png', // Empty for now
       tech: ['HTML', 'Django', 'CSS', 'Javascript', 'sqlite.db'],
       github: 'https://github.com/Arpit-nx/Luxe-Cereus',
       live: '#'
@@ -38,7 +38,7 @@ const Projects = () => {
     {
       title: 'Virtual Lab',
       description: 'An interactive virtual laboratory platform for conducting scientific experiments online. Includes physics, chemistry, and biology simulation modules.',
-      image: '', // Empty for now
+      image: './src/assets/V-lab.png', // Empty for now
       tech: ['React', 'WebGL', 'Three.js', 'Javascript', 'Flask'],
       github: 'https://github.com/Arpit-nx/Virtual_Lab',
       live: '#'
@@ -46,7 +46,7 @@ const Projects = () => {
     {
       title: 'Movie Recommender',
       description: 'An intelligent movie recommendation system using machine learning algorithms. Analyzes user preferences and viewing history to suggest personalized content.',
-      image: '', // Empty for now
+      image: './src/assets/movie_recommender.png', // Empty for now
       tech: ['Python', 'Scikit-learn', 'Flask', 'React', 'MongoDB'],
       github: 'https://github.com/Arpit-nx/Project_Movie_Recommender',
       live: '#'
