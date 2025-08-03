@@ -10,6 +10,7 @@ import DSASkills from './components/DSASkills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ContactCorner from './components/ContactCorner';
+import myImage from './assets/image.png';
 
 function App() {
   return (

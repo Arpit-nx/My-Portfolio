@@ -1,5 +1,6 @@
 // import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import myImage from '../assets/image.png';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -23,21 +24,17 @@ const Hero = () => {
           <div className="order-2 md:order-1 flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 backdrop-blur-sm border-2 border-gray-700/50 flex items-center justify-center overflow-hidden">
-                {/* Placeholder for photo - replace with actual image */}
-                <div className="w-full h-full bg-gradient-to-br from-blue-500/10 to-purple-500/10 flex items-center justify-center text-6xl font-bold text-gray-400">
-                  AS
+                <div className="w-72 h-72 rounded-full overflow-hidden shadow-lg">
+                  <img
+                    src={myImage}
+                    alt="Arpit Singh"
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
-                {/* Uncomment and replace with actual photo */}
-                <img 
-                  src="./src/assets/image.png" 
-                  alt="Arpit Singh" 
-                  className="w-full h-full object-cover"
-                />
               </div>
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-full blur-xl animate-pulse"></div>
             </div>
           </div>
-
           {/* Text Content */}
           <div className="order-1 md:order-2 space-y-6 text-left md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
