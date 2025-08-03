@@ -1,25 +1,46 @@
-# Logs
-logs
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+.venv/
+env/
+venv/
+ENV/
+
+# Instance folder (Flask)
+instance/
+
+# SQLite (if used locally)
+*.db
+*.sqlite3
+
+# Django stuff
+local_settings.py
+db.sqlite3
+media/
+
+# Coverage / test artifacts
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+
+# Mypy / typing caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs (if backend emits its own logs)
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Secret overrides you don't want in VCS
 .env
