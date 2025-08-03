@@ -1,51 +1,11 @@
-# Python bytecode / caches
-__pycache__/
-*.py[cod]
-*$py.class
+# === Node / Frontend ===
+/node_modules/
+/dist/
+/dist-ssr/
+/*.local         # local override files like foo.local if you use that pattern
 
-# Virtualenvs
-.venv/
-env/
-venv/
-ENV/
-
-# Instance folder (Flask)
-instance/
-
-# SQLite (if used locally)
-*.db
-*.sqlite3
-
-# Django stuff
-local_settings.py
-db.sqlite3
-media/
-
-# Coverage / test artifacts
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-htmlcov/
-
-# Mypy / typing caches
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Distribution / build
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Logs (if backend emits its own logs)
-*.log
-
-# Secret overrides you don't want in VCS
-.env
-# Logs
-logs
+# Logs (frontend or backend)
+/logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -53,19 +13,56 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# === Python / Backend ===
+# Bytecode, caches
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Editor directories and files
+# Virtual environments
+/.venv/
+/env/
+/venv/
+/ENV/
+
+# Flask / Django local artifacts
+/instance/
+local_settings.py
+db.sqlite3
+*.db
+*.sqlite3
+/media/
+
+# Testing / coverage / type checking
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Distribution / packaging
+/build/
+/dist/                # already in frontend, okay to keep once (no harm)
+/*.egg-info/
+.eggs/
+
+# === Secrets / env ===
+.env                 # real secret files (should never be committed)
+# keep a committed example instead: .env.example
+
+# === Editors / IDEs ===
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
+.idea/
+/*.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.env
+
+# === OS / Misc ===
+.DS_Store
+*.local
