@@ -5,3 +5,4 @@ python-dotenv
 dotenv
 Flask-SQLAlchemy
 Flask-Migrate
+gunicorn
