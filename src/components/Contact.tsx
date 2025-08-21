@@ -11,7 +11,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://portfoliobackend-production-7d38.up.railway.app/api/contact", {
+      const response = await fetch("https://portfoliobackend-production-6fb0.up.railway.app/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
